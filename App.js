@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Linking from 'expo-linking';
 import * as Notifications from 'expo-notifications';
 
-const API_KEY = 'YOUR_TMDB_API_KEY';
+const API_KEY = '419565ae535aaf740acc8550bd25d3fc';
 const URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`;
 const validCodes = ['MOVIEGOLD2025', 'SILVERPASS'];
 
